@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gp.GpointActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gp.Profile"
+            android:label="@string/title_activity_ajeet" >
+        </activity>
+        <activity
+            android:name="com.example.gp.MainMenu"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name="com.example.gp.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        
+        <activity
+            android:name="com.example.gp.News"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Content"
+            android:label="@string/title_activity_content" >
+        </activity>
+        
+        <activity
+            android:name="com.example.gp.LinearAlgebra"
+            android:label="@string/title_activity_linear_algebra" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Probability"
+            android:label="@string/title_activity_probability" >
+        </activity>
+        
+        <activity
+            android:name="com.example.gp.AboutApp"
+            android:label="@string/title_activity_about_app" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Contactus"
+            android:label="@string/title_activity_contactus" >
+        </activity>
+        <activity
+            android:name="com.example.gp.GateSllyabus"
+            android:label="@string/title_activity_gate_sllyabus" >
+        </activity>
+        <activity
+            android:name="com.example.gp.GateSyllabus"
+            android:label="@string/title_activity_gate_syllabus" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Eligibility"
+            android:label="@string/title_activity_eligibility" >
+        </activity>
+        <activity
+            android:name="com.example.gp.About"
+            android:label="@string/title_activity_eligibility" >
+        </activity>
+        
+        <activity
+            android:name="com.example.gp.EcSyllabus"
+            android:label="@string/title_activity_ec_syllabus" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Calculus"
+            android:label="@string/title_activity_calculus" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Discrete"
+            android:label="@string/title_activity_discrete" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Anlog1"
+            android:label="@string/title_activity_anlog1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Cmsystem1"
+            android:label="@string/title_activity_cmsystem1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Compiler1"
+            android:label="@string/title_activity_compiler1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Csystem1"
+            android:label="@string/title_activity_csystem1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Database1"
+            android:label="@string/title_activity_database1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Digital1"
+            android:label="@string/title_activity_digital1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Edc1"
+            android:label="@string/title_activity_edc1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Emf1"
+            android:label="@string/title_activity_emf1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Ent1"
+            android:label="@string/title_activity_ent1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Networking1"
+            android:label="@string/title_activity_networking1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Os1"
+            android:label="@string/title_activity_os1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Ssystem1"
+            android:label="@string/title_activity_ssystem1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Toc1"
+            android:label="@string/title_activity_toc1" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Algo"
+            android:label="@string/title_activity_algo" >
+        </activity>
+        <activity
+            android:name="com.example.gp.Co"
+            android:label="@string/title_activity_co" >
+        </activity>
+    </application>
+
+</manifest>

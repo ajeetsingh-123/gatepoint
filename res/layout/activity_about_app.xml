@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context=".AboutApp" >
+
+   <ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#2cddfc"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+         <TextView
+        android:id="@+id/textView22"
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="60dp"
+        android:text="\tAbout app"
+        android:textStyle="italic"
+        android:textSize="25dp" />
+        
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/f" />
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:text="\t\t\t\t\t\tGatePoint"
+        android:textStyle="normal"
+        android:textSize="22dp"/>
+       
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="\t\t\t Version: 1.0 (beta 50)\n\t\t\t\tCreated:2015-07-07 "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:text="About developer"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:text="This app is developed and maintained by : Ajeet Singh"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:text="Contributers"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="0dp"
+        android:text="Mr. NITIN SHACHAN\n(Faculty of BTPS Training Institute)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     </LinearLayout>
+   </ScrollView>
+ </RelativeLayout>

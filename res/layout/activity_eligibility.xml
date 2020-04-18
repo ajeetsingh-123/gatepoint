@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/bg"
+    android:padding="16dp"
+    tools:context=".Eligibility" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#2cddfc"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp" >
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/elb" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:background="#4a4f6f"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text=" Gate Eligibility"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+       android:background="#2cddfc"
+        android:orientation="vertical" >
+        <ScrollView 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#2cddfc"
+        android:orientation="vertical">
+        <TextView
+                   android:id="@+id/text"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/imageView1"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="5dp"
+                   android:text="Appear For Gate"
+                   android:textColor="#ee0000"
+                   android:textSize="15dp"
+                   android:textStyle="italic" />
+               <TextView
+                   android:id="@+id/textv"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/imageView1"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:textColor="#0000ff"
+                   android:textSize="11dp"
+                   android:textStyle="italic" />
+
+     </LinearLayout>
+   </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
